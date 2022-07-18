@@ -1,2 +1,1 @@
-SELECT * FROM products
-LIMIT 1;
+SELECT id FROM products;
