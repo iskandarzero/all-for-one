@@ -1,2 +1,2 @@
 SELECT notes FROM purchase_orders
-LIMIT 5 OFFSET 6;
+WHERE notes LIKE 'Purchase generated based on Order #3%';
